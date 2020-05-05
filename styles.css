@@ -1,0 +1,132 @@
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #679b9b;
+  font-size: 6.625rem;
+  margin: 0 auto 0 auto;
+  font-family: 'Lobster', cursive;
+}
+
+h2 {
+  color: #679b9b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #679b9b;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+  border: dotted #fde2e2 6px;
+  border-bottom: none;
+  width: 5%;
+    margin: 80px auto;
+}
+
+a {
+  font-weight: bold;
+  color:  #d7385e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fde2e2;
+}
+
+.top-container {
+  background-color: #ffaaa5;
+  position: relative;
+    padding-top: 30px;
+}
+
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #ffaaa5;
+  padding: 50px 0 20px;
+
+}
+
+.coffee {
+  position: absolute;
+  top: 150px;
+  left: 1px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.and {
+  text-decoration: underline;
+}
+.intro {
+  width: 45%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.Graphic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.Makeup {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.testbutton {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #FFFFFF !important;
+  font-size: 20px;
+  text-shadow: 2px 1px 0px #FF7272;
+  box-shadow: 1px 1px 1px #FF7272;
+  padding: 10px 25px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  border: 1px solid #FF7272;
+  background: #FFAAA5;
+  background: linear-gradient(top,  #FF7272,  #FFAAA5);
+  background: -ms-linear-gradient(top,  #FF7272,  #FFAAA5);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF7272), to(#FFAAA5));
+  background: -moz-linear-gradient(top,  #FF7272,  #FFAAA5);
+}
+.testbutton:hover {
+  color: #FF7272 !important;
+  background: #FDE2E2;
+}
+
+.copyright {
+  color: #fde2e2;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
